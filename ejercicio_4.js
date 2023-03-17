@@ -1,4 +1,5 @@
 // Ejercicio 4 Cree una función que le permita buscar un elemento contenido en el arreglo. Nota: el arreglo solo contendrá números, y tendrá un largo máximo de 100.
+
 function searchInArray(array, element) {
     if (array.length > 100) {
       return "El arreglo es demasiado grande";

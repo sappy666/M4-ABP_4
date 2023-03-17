@@ -1,8 +1,11 @@
-// Ejercicio 1 Cree una función que dado un número n cree un arreglo de largo n, donde en cada posición del arreglo este el doble del anterior nota, el primer elemento del arreglo es 1
-function createArray(n) {
-    let arr = [1];
-    for (let i = 1; i < n; i++) {
-      arr.push(arr[i-1] * 2);
-    }
-    return arr;
+// Ejercicio 1 Construya una función que dado un número n entero y menor que 100 calcule la sumatoria de 1 hasta n.
+
+function crearArreglo(n) {
+  let arr = [];
+  let valor = 1;
+  for (let i = 0; i < n; i++) {
+    arr.push(valor);
+    valor *= 2;
   }
+  return arr;
+}
